@@ -11,6 +11,7 @@ console.log("The computer chooses " + computerSelection)
 
 let playerSelection = prompt("Select: rock, paper, or scissors?")
 
+alert ("The computer chose " + computerSelection)
 function playRound(playerSelection, computerSelection) {
    
     if (playerSelection === "rock" && computerSelection === "rock")
@@ -41,12 +42,14 @@ function playRound(playerSelection, computerSelection) {
         return 'It is a tie!';
 }
 
+alert (playRound(playerSelection, computerSelection));
+
 function game (playRound) {
     for (let i = 0; i < 5; i++) {
 
     }
 }
-console.log(playRound(playerSelection, computerSelection));
+
 
 
 //const playerSelection = "rock";
